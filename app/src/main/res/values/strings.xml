@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tensor Flow Fridge</string>
+
+    <string name="images_preference">food_images</string>
+    <string name="names_preference">food_names</string>
+    <string name="expiration_preference">food_expirations</string>
 </resources>
