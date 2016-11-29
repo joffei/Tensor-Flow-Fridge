@@ -4,4 +4,7 @@
     <string name="images_preference">food_images</string>
     <string name="names_preference">food_names</string>
     <string name="expiration_preference">food_expirations</string>
+    <string name="ProcessFood">Process</string>
+    <string name="Barcode_Images">Barcode Images</string>
+
 </resources>
