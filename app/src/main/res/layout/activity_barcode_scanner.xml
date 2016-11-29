@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.sixsigma.tensorflowfridge.barcode_Scanner">
 
-
+    <!-- Entire activity done by Darrin Cation-->
 
     <LinearLayout
         android:layout_width="wrap_content"

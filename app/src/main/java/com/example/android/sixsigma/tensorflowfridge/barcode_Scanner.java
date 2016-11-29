@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
-
+//Darrin Cation
 public class barcode_Scanner extends AppCompatActivity {
 
     @Override

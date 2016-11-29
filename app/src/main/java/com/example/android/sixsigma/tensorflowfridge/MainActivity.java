@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,26 +11,10 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.app.Activity;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.os.Bundle;
-import android.util.SparseArray;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.EditText;
-
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.vision.Frame;
-import com.google.android.gms.vision.barcode.Barcode;
-import com.google.android.gms.vision.barcode.BarcodeDetector;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -66,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         FridgeArrayAdapter adapter = new FridgeArrayAdapter(MainActivity.this, items);
 
         fridgeList.setAdapter(adapter);
-
+        //Darrin Cation
         searchBarcode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 changetoBarCodeActivity();
             }
         });
-
+        //Darrin Cation
         newItemButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -95,11 +78,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void changeActivity() {
+    public void changeActivity() { //Darrin Cation
         Intent intentADD = new Intent(this, newItemActivity.class);
         startActivity(intentADD);
     }
-    public void changetoBarCodeActivity() {
+    public void changetoBarCodeActivity() { //Darrin Cation
         Intent intentADD = new Intent(this, barcode_Scanner.class);
         startActivity(intentADD);
     }
